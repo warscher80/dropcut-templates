@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "aspect": "9:16",
+  "updatedAt": "2026-11-23",
+  "id": "hook-drop-12s",
+  "name": "Hook & Drop",
+  "icon": "💥",
+  "tagline": "Der Allrounder (12 s)",
+  "description": "Hook in den ersten Sekunden, Whip-Schnitte im Aufbau, Flash und Shake auf dem Drop, Glitch zum Ausklang. Funktioniert mit fast allem.",
+  "tags": [
+    "hook",
+    "drop",
+    "allrounder"
+  ],
+  "source": "Format: Hook & Drop (Hook < 2 s, Schnitt auf Beat/Drop, 7–15 s)",
+  "durationSec": {
+    "min": 7,
+    "target": 12,
+    "max": 15
+  },
+  "bpmRange": [
+    85,
+    150
+  ],
+  "music": {
+    "startAt": "firstDrop",
+    "dropAtBeat": 8,
+    "fadeOutSec": 1
+  },
+  "segments": [
+    {
+      "startBeat": 0,
+      "lengthBeats": 2,
+      "clip": "best",
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 0.6
+        }
+      ]
+    },
+    {
+      "startBeat": 2,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "whip",
+        "durationBeats": 0.25
+      }
+    },
+    {
+      "startBeat": 4,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      }
+    },
+    {
+      "startBeat": 6,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      },
+      "speedRamp": [
+        {
+          "at": 0,
+          "speed": 1
+        },
+        {
+          "at": 0.5,
+          "speed": 0.5
+        }
+      ]
+    },
+    {
+      "startBeat": 8,
+      "lengthBeats": 4,
+      "clip": "best",
+      "transitionIn": {
+        "type": "flash",
+        "durationBeats": 0.5
+      },
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 1
+        },
+        {
+          "type": "shake",
+          "intensity": 0.7
+        }
+      ]
+    },
+    {
+      "startBeat": 12,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      }
+    },
+    {
+      "startBeat": 14,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "glitch",
+        "durationBeats": 0.3
+      }
+    },
+    {
+      "startBeat": 16,
+      "lengthBeats": 4,
+      "clip": "next",
+      "transitionIn": {
+        "type": "zoom",
+        "durationBeats": 0.25
+      },
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 0.5
+        }
+      ]
+    },
+    {
+      "startBeat": 20,
+      "lengthBeats": 4,
+      "clip": "next",
+      "transitionIn": {
+        "type": "fade",
+        "durationBeats": 1
+      }
+    }
+  ],
+  "textOverlays": [
+    {
+      "text": "Das glaubst du nicht",
+      "startBeat": 0,
+      "lengthBeats": 3.5,
+      "position": "top",
+      "style": {
+        "sizePx": 100,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "pop"
+      },
+      "slot": "hook"
+    }
+  ],
+  "captions": {
+    "enabled": false,
+    "language": "de",
+    "style": "bold-center"
+  }
+}

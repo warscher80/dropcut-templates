@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "aspect": "9:16",
+  "updatedAt": "2026-11-23",
+  "id": "before-after",
+  "name": "Vorher / Nachher",
+  "icon": "✨",
+  "tagline": "Schwarz-weiß zu Farbe auf dem Drop",
+  "description": "Erst grau und ruhig (Vorher), dann Flash und Farbexplosion auf dem Drop (Nachher). Für Transformationen, Umbauten und Glow-Ups.",
+  "tags": [
+    "vorher",
+    "nachher",
+    "transformation"
+  ],
+  "source": "Format: Before/After-Transformation",
+  "durationSec": {
+    "min": 7,
+    "target": 12,
+    "max": 15
+  },
+  "bpmRange": [
+    80,
+    145
+  ],
+  "music": {
+    "startAt": "firstDrop",
+    "dropAtBeat": 8,
+    "fadeOutSec": 1.5
+  },
+  "segments": [
+    {
+      "startBeat": 0,
+      "lengthBeats": 4,
+      "clip": "best",
+      "look": "bw"
+    },
+    {
+      "startBeat": 4,
+      "lengthBeats": 4,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      },
+      "effects": [
+        {
+          "type": "shake",
+          "intensity": 0.3
+        }
+      ],
+      "look": "bw"
+    },
+    {
+      "startBeat": 8,
+      "lengthBeats": 4,
+      "clip": "best",
+      "transitionIn": {
+        "type": "flash",
+        "durationBeats": 0.6
+      },
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 1
+        }
+      ],
+      "look": "vivid"
+    },
+    {
+      "startBeat": 12,
+      "lengthBeats": 4,
+      "clip": "next",
+      "transitionIn": {
+        "type": "zoom",
+        "durationBeats": 0.25
+      },
+      "look": "vivid"
+    },
+    {
+      "startBeat": 16,
+      "lengthBeats": 4,
+      "clip": "next",
+      "transitionIn": {
+        "type": "whip",
+        "durationBeats": 0.25
+      },
+      "look": "vivid"
+    },
+    {
+      "startBeat": 20,
+      "lengthBeats": 4,
+      "clip": "best",
+      "transitionIn": {
+        "type": "fade",
+        "durationBeats": 1
+      },
+      "look": "vivid"
+    }
+  ],
+  "textOverlays": [
+    {
+      "text": "VORHER",
+      "startBeat": 0,
+      "lengthBeats": 7.5,
+      "position": "top",
+      "style": {
+        "sizePx": 150,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "slideUp"
+      },
+      "slot": "hook"
+    },
+    {
+      "text": "NACHHER",
+      "startBeat": 8,
+      "lengthBeats": 6,
+      "position": "top",
+      "style": {
+        "sizePx": 150,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "pop"
+      }
+    }
+  ],
+  "captions": {
+    "enabled": false,
+    "language": "de",
+    "style": "bold-center"
+  }
+}

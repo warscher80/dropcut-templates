@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "updatedAt": "2026-11-22",
+  "templates": [
+    {
+      "id": "beat-sync-montage",
+      "name": "Beat-Sync Montage",
+      "file": "beat-sync-montage.json",
+      "updatedAt": "2026-11-23"
+    },
+    {
+      "id": "before-after",
+      "name": "Vorher / Nachher",
+      "file": "before-after.json",
+      "updatedAt": "2026-11-23"
+    },
+    {
+      "id": "hook-drop-12s",
+      "name": "Hook & Drop",
+      "file": "hook-drop-12s.json",
+      "updatedAt": "2026-11-23"
+    },
+    {
+      "id": "hook-reveal",
+      "name": "Hook & Reveal",
+      "file": "hook-reveal.json",
+      "updatedAt": "2026-11-23"
+    },
+    {
+      "id": "slideshow-fastcut",
+      "name": "Fast-Cut Slideshow",
+      "file": "slideshow-fastcut.json",
+      "updatedAt": "2026-11-23"
+    },
+    {
+      "id": "velocity-edit",
+      "name": "Velocity Edit",
+      "file": "velocity-edit.json",
+      "updatedAt": "2026-11-23"
+    }
+  ]
+}

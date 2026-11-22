@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "aspect": "9:16",
+  "updatedAt": "2026-11-23",
+  "id": "hook-reveal",
+  "name": "Hook & Reveal",
+  "icon": "🎬",
+  "tagline": "Spannung aufbauen, dann Reveal",
+  "description": "Starker Hook-Text, düsterer Aufbau und beim Drop der große Reveal in voller Farbe. Perfekt für ein Ergebnis am Ende.",
+  "tags": [
+    "hook",
+    "reveal",
+    "spannung"
+  ],
+  "source": "Format: Hook + Reveal (Hook in den ersten 1–2 s)",
+  "durationSec": {
+    "min": 7,
+    "target": 12,
+    "max": 15
+  },
+  "bpmRange": [
+    80,
+    145
+  ],
+  "music": {
+    "startAt": "firstDrop",
+    "dropAtBeat": 8,
+    "fadeOutSec": 1.5
+  },
+  "segments": [
+    {
+      "startBeat": 0,
+      "lengthBeats": 4,
+      "clip": "best",
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 0.3
+        }
+      ],
+      "look": "dim"
+    },
+    {
+      "startBeat": 4,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      },
+      "look": "dim"
+    },
+    {
+      "startBeat": 6,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      },
+      "effects": [
+        {
+          "type": "shake",
+          "intensity": 0.4
+        }
+      ],
+      "look": "dim"
+    },
+    {
+      "startBeat": 8,
+      "lengthBeats": 8,
+      "clip": "best",
+      "transitionIn": {
+        "type": "flash",
+        "durationBeats": 0.6
+      },
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 1
+        },
+        {
+          "type": "shake",
+          "intensity": 0.5
+        }
+      ],
+      "look": "vivid"
+    },
+    {
+      "startBeat": 16,
+      "lengthBeats": 4,
+      "clip": "next",
+      "transitionIn": {
+        "type": "zoom",
+        "durationBeats": 0.25
+      },
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 0.5
+        }
+      ],
+      "look": "vivid"
+    },
+    {
+      "startBeat": 20,
+      "lengthBeats": 4,
+      "clip": "best",
+      "transitionIn": {
+        "type": "fade",
+        "durationBeats": 1
+      },
+      "look": "vivid"
+    }
+  ],
+  "textOverlays": [
+    {
+      "text": "Warte bis zum Ende",
+      "startBeat": 0,
+      "lengthBeats": 4,
+      "position": "top",
+      "style": {
+        "sizePx": 110,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "pop"
+      },
+      "slot": "hook"
+    },
+    {
+      "text": "JETZT",
+      "startBeat": 8,
+      "lengthBeats": 2,
+      "position": "center",
+      "style": {
+        "sizePx": 200,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "pop"
+      }
+    }
+  ],
+  "captions": {
+    "enabled": false,
+    "language": "de",
+    "style": "bold-center"
+  }
+}

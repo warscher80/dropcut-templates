@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "aspect": "9:16",
+  "updatedAt": "2026-11-23",
+  "id": "velocity-edit",
+  "name": "Velocity Edit",
+  "icon": "⚡",
+  "tagline": "Slow-Mo rein, Speed raus",
+  "description": "Zeitlupe vor dem Drop, dann Vollgas: Speed-Ramps, Whip-Übergänge und ein harter Schnitt mit Flash auf dem Drop.",
+  "tags": [
+    "velocity",
+    "speed",
+    "slowmo"
+  ],
+  "source": "Format: Velocity Edit (Speed-Ramp um den Drop)",
+  "durationSec": {
+    "min": 7,
+    "target": 12,
+    "max": 15
+  },
+  "bpmRange": [
+    85,
+    150
+  ],
+  "music": {
+    "startAt": "firstDrop",
+    "dropAtBeat": 8,
+    "fadeOutSec": 1
+  },
+  "segments": [
+    {
+      "startBeat": 0,
+      "lengthBeats": 4,
+      "clip": "best",
+      "look": "vivid"
+    },
+    {
+      "startBeat": 4,
+      "lengthBeats": 4,
+      "clip": "next",
+      "transitionIn": {
+        "type": "whip",
+        "durationBeats": 0.25
+      },
+      "look": "vivid",
+      "speedRamp": [
+        {
+          "at": 0,
+          "speed": 1
+        },
+        {
+          "at": 0.25,
+          "speed": 0.4
+        }
+      ]
+    },
+    {
+      "startBeat": 8,
+      "lengthBeats": 1,
+      "clip": "best",
+      "transitionIn": {
+        "type": "flash",
+        "durationBeats": 0.5
+      },
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 1
+        },
+        {
+          "type": "shake",
+          "intensity": 0.6
+        }
+      ],
+      "look": "vivid",
+      "speed": 1.6
+    },
+    {
+      "startBeat": 9,
+      "lengthBeats": 1,
+      "clip": "next",
+      "transitionIn": {
+        "type": "whip",
+        "durationBeats": 0.25
+      },
+      "look": "vivid",
+      "speed": 1.6
+    },
+    {
+      "startBeat": 10,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      },
+      "look": "vivid",
+      "speedRamp": [
+        {
+          "at": 0,
+          "speed": 1.6
+        },
+        {
+          "at": 0.5,
+          "speed": 0.4
+        }
+      ]
+    },
+    {
+      "startBeat": 12,
+      "lengthBeats": 4,
+      "clip": "next",
+      "transitionIn": {
+        "type": "zoom",
+        "durationBeats": 0.25
+      },
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 0.7
+        }
+      ],
+      "look": "vivid",
+      "speedRamp": [
+        {
+          "at": 0,
+          "speed": 0.4
+        },
+        {
+          "at": 0.5,
+          "speed": 1.2
+        }
+      ]
+    },
+    {
+      "startBeat": 16,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "whip",
+        "durationBeats": 0.25
+      },
+      "look": "vivid",
+      "speed": 1.4
+    },
+    {
+      "startBeat": 18,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      },
+      "look": "vivid",
+      "speed": 1.2
+    },
+    {
+      "startBeat": 20,
+      "lengthBeats": 4,
+      "clip": "best",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      },
+      "look": "vivid",
+      "speedRamp": [
+        {
+          "at": 0,
+          "speed": 1
+        },
+        {
+          "at": 0.6,
+          "speed": 0.5
+        }
+      ]
+    }
+  ],
+  "textOverlays": [
+    {
+      "text": "Sieh genau hin",
+      "startBeat": 0,
+      "lengthBeats": 3.5,
+      "position": "top",
+      "style": {
+        "sizePx": 110,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "pop"
+      },
+      "slot": "hook"
+    }
+  ],
+  "captions": {
+    "enabled": false,
+    "language": "de",
+    "style": "bold-center"
+  }
+}

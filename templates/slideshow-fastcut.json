@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "aspect": "9:16",
+  "updatedAt": "2026-11-23",
+  "id": "slideshow-fastcut",
+  "name": "Fast-Cut Slideshow",
+  "icon": "🖼️",
+  "tagline": "Viele Clips, null Leerlauf",
+  "description": "Bis zu 20 Clips im Takt – ein Schnitt pro Beat. Ideal, wenn du viele kurze Videos aus Urlaub oder Event hast.",
+  "tags": [
+    "slideshow",
+    "fastcut",
+    "urlaub"
+  ],
+  "source": "Format: Fast-Cut-Slideshow / Foto-Dump",
+  "durationSec": {
+    "min": 7,
+    "target": 12,
+    "max": 15
+  },
+  "bpmRange": [
+    90,
+    150
+  ],
+  "music": {
+    "startAt": "firstDrop",
+    "dropAtBeat": 8,
+    "fadeOutSec": 1
+  },
+  "segments": [
+    {
+      "startBeat": 0,
+      "lengthBeats": 1,
+      "clip": "best",
+      "transitionIn": {
+        "type": "whip",
+        "durationBeats": 0.25
+      }
+    },
+    {
+      "startBeat": 1,
+      "lengthBeats": 1,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      }
+    },
+    {
+      "startBeat": 2,
+      "lengthBeats": 1,
+      "clip": "next",
+      "transitionIn": {
+        "type": "whip",
+        "durationBeats": 0.25
+      }
+    },
+    {
+      "startBeat": 3,
+      "lengthBeats": 1,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      }
+    },
+    {
+      "startBeat": 4,
+      "lengthBeats": 1,
+      "clip": "next",
+      "transitionIn": {
+        "type": "whip",
+        "durationBeats": 0.25
+      }
+    },
+    {
+      "startBeat": 5,
+      "lengthBeats": 1,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      }
+    },
+    {
+      "startBeat": 6,
+      "lengthBeats": 1,
+      "clip": "next",
+      "transitionIn": {
+        "type": "whip",
+        "durationBeats": 0.25
+      }
+    },
+    {
+      "startBeat": 7,
+      "lengthBeats": 1,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      }
+    },
+    {
+      "startBeat": 8,
+      "lengthBeats": 1,
+      "clip": "best",
+      "transitionIn": {
+        "type": "flash",
+        "durationBeats": 0.5
+      },
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 1
+        }
+      ]
+    },
+    {
+      "startBeat": 9,
+      "lengthBeats": 1,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      }
+    },
+    {
+      "startBeat": 10,
+      "lengthBeats": 1,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      },
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 0.35
+        }
+      ]
+    },
+    {
+      "startBeat": 11,
+      "lengthBeats": 1,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      }
+    },
+    {
+      "startBeat": 12,
+      "lengthBeats": 1,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      },
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 0.35
+        }
+      ]
+    },
+    {
+      "startBeat": 13,
+      "lengthBeats": 1,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      }
+    },
+    {
+      "startBeat": 14,
+      "lengthBeats": 1,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      },
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 0.35
+        }
+      ]
+    },
+    {
+      "startBeat": 15,
+      "lengthBeats": 1,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      }
+    },
+    {
+      "startBeat": 16,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "whip",
+        "durationBeats": 0.25
+      }
+    },
+    {
+      "startBeat": 18,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      }
+    },
+    {
+      "startBeat": 20,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "whip",
+        "durationBeats": 0.25
+      }
+    },
+    {
+      "startBeat": 22,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "fade",
+        "durationBeats": 1
+      }
+    }
+  ],
+  "textOverlays": [
+    {
+      "text": "Mein Tag in 12 Sekunden",
+      "startBeat": 0,
+      "lengthBeats": 3.5,
+      "position": "top",
+      "style": {
+        "sizePx": 100,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "pop"
+      },
+      "slot": "hook"
+    }
+  ],
+  "captions": {
+    "enabled": false,
+    "language": "de",
+    "style": "bold-center"
+  }
+}

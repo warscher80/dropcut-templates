@@ -1,0 +1,277 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dropcut.app/schemas/template.v1.json",
+  "title": "DropCut Template v1",
+  "description": "Ein Reel-Template: Schnittpunkte relativ zu Beats, Übergänge, Text-Overlays und Länge. Wird remote geladen (templates/index.json) und lokal gegen diese Struktur geprüft.",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "name",
+    "durationSec",
+    "segments"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "source": {
+      "type": "string",
+      "description": "Woher der Trend stammt (z. B. TikTok Creative Center, eigene Analyse)."
+    },
+    "aspect": {
+      "const": "9:16"
+    },
+    "durationSec": {
+      "type": "object",
+      "required": [
+        "min",
+        "target",
+        "max"
+      ],
+      "properties": {
+        "min": {
+          "type": "number"
+        },
+        "target": {
+          "type": "number"
+        },
+        "max": {
+          "type": "number"
+        }
+      }
+    },
+    "bpmRange": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "music": {
+      "type": "object",
+      "properties": {
+        "startAt": {
+          "enum": [
+            "start",
+            "firstDrop",
+            "bestSection"
+          ],
+          "description": "Ab wo der Song des Users genutzt wird."
+        },
+        "dropAtBeat": {
+          "type": "integer",
+          "description": "Auf welchem Beat des Templates der Drop sitzen soll."
+        },
+        "fadeOutSec": {
+          "type": "number"
+        }
+      }
+    },
+    "segments": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "startBeat",
+          "lengthBeats"
+        ],
+        "properties": {
+          "startBeat": {
+            "type": "number",
+            "description": "Start des Segments in Beats ab Template-Beginn."
+          },
+          "lengthBeats": {
+            "type": "number"
+          },
+          "clip": {
+            "enum": [
+              "next",
+              "best",
+              "same"
+            ],
+            "default": "next"
+          },
+          "speed": {
+            "type": "number",
+            "default": 1
+          },
+          "transitionIn": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "enum": [
+                  "cut",
+                  "fade",
+                  "flash",
+                  "zoom",
+                  "whip",
+                  "glitch"
+                ]
+              },
+              "durationBeats": {
+                "type": "number"
+              }
+            }
+          },
+          "effects": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "type"
+              ],
+              "properties": {
+                "type": {
+                  "enum": [
+                    "zoomPunch",
+                    "shake"
+                  ]
+                },
+                "intensity": {
+                  "type": "number"
+                }
+              }
+            }
+          },
+          "look": {
+            "enum": [
+              "none",
+              "bw",
+              "dim",
+              "vivid",
+              "warm",
+              "cool"
+            ]
+          },
+          "speedRamp": {
+            "type": "array",
+            "description": "Stückweise konstante Geschwindigkeit; at = Anteil (0..1) der Segmentlänge.",
+            "items": {
+              "type": "object",
+              "required": [
+                "at",
+                "speed"
+              ],
+              "properties": {
+                "at": {
+                  "type": "number"
+                },
+                "speed": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "textOverlays": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "text",
+          "startBeat",
+          "lengthBeats"
+        ],
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "startBeat": {
+            "type": "number"
+          },
+          "lengthBeats": {
+            "type": "number"
+          },
+          "position": {
+            "enum": [
+              "top",
+              "center",
+              "bottom"
+            ]
+          },
+          "style": {
+            "type": "object",
+            "properties": {
+              "font": {
+                "type": "string"
+              },
+              "sizePx": {
+                "type": "number"
+              },
+              "color": {
+                "type": "string"
+              },
+              "strokeColor": {
+                "type": "string"
+              },
+              "animation": {
+                "enum": [
+                  "none",
+                  "pop",
+                  "slideUp",
+                  "typewriter"
+                ]
+              }
+            }
+          },
+          "slot": {
+            "enum": [
+              "hook"
+            ],
+            "description": "hook = vom User überschreibbarer Hook-Text."
+          }
+        }
+      }
+    },
+    "captions": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "language": {
+          "type": "string"
+        },
+        "style": {
+          "enum": [
+            "karaoke",
+            "classic",
+            "bold-center"
+          ]
+        }
+      }
+    },
+    "icon": {
+      "type": "string"
+    },
+    "tagline": {
+      "type": "string"
+    }
+  }
+}
