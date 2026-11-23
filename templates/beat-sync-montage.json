@@ -237,7 +237,8 @@
         "sizePx": 110,
         "color": "#FFFFFF",
         "strokeColor": "#000000",
-        "animation": "pop"
+        "animation": "pop",
+        "preset": "box"
       },
       "slot": "hook"
     }
@@ -257,5 +258,15 @@
   "previewUrl": "previews/beat-sync-montage.mp4",
   "thumbnailUrl": "previews/beat-sync-montage.jpg",
   "previewDurationSec": 10.33,
-  "suggestedTrackId": "dark-time"
+  "suggestedTrackId": "dark-time",
+  "fx": {
+    "intensity": 1.1,
+    "look": "tealorange",
+    "transitions": [
+      "whip",
+      "zoom",
+      "rgbsplit"
+    ],
+    "vignette": true
+  }
 }

@@ -117,12 +117,23 @@
         "sizePx": 85,
         "color": "#FFFFFF",
         "strokeColor": "#000000",
-        "animation": "slideUp"
+        "animation": "slideUp",
+        "preset": "outline"
       }
     }
   ],
   "previewUrl": "previews/gefuehl-slow-reveal.mp4",
   "thumbnailUrl": "previews/gefuehl-slow-reveal.jpg",
   "previewDurationSec": 13.5,
-  "suggestedTrackId": "horizon-flare"
+  "suggestedTrackId": "horizon-flare",
+  "fx": {
+    "intensity": 0.6,
+    "look": "film",
+    "transitions": [
+      "blur",
+      "fade"
+    ],
+    "vignette": true,
+    "grain": true
+  }
 }

@@ -237,6 +237,22 @@
                   "slideUp",
                   "typewriter"
                 ]
+              },
+              "preset": {
+                "enum": [
+                  "outline",
+                  "box",
+                  "neon"
+                ],
+                "description": "AB-1: Text-Stil (outline = Standard, box = TikTok-Kasten, neon = Glow). Alte Apps ignorieren es."
+              },
+              "accentColor": {
+                "type": "string",
+                "pattern": "^#[0-9A-Fa-f]{6}$"
+              },
+              "beatPulse": {
+                "type": "boolean",
+                "description": "Text pulsiert auf den Beats"
               }
             }
           },
@@ -324,6 +340,113 @@
       "type": "string",
       "pattern": "^[a-z0-9][a-z0-9-]*$",
       "description": "Standard-Song aus dem Musikkatalog (music/index.json). Wird von render-previews für die Galerie-Vorschau genutzt und in der App vorgeschlagen."
+    },
+    "fx": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "AB-1: Effekt-Rezept (automatische Beat-Effekte). Optional, alte Apps (Build 5–9) ignorieren es.",
+      "properties": {
+        "intensity": {
+          "type": "number",
+          "minimum": 0.3,
+          "maximum": 2
+        },
+        "look": {
+          "enum": [
+            "none",
+            "bw",
+            "dim",
+            "vivid",
+            "warm",
+            "cool",
+            "film",
+            "tealorange",
+            "bwpunch",
+            "vibrant"
+          ]
+        },
+        "transitions": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "whip",
+              "zoom",
+              "glitch",
+              "rgbsplit",
+              "blur",
+              "flash",
+              "fade"
+            ]
+          }
+        },
+        "beatZoom": {
+          "type": "boolean"
+        },
+        "dropHit": {
+          "type": "boolean"
+        },
+        "speedRamp": {
+          "type": "boolean"
+        },
+        "vignette": {
+          "type": "boolean"
+        },
+        "grain": {
+          "type": "boolean"
+        }
+      }
+    },
+    "stickers": {
+      "type": "array",
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "x",
+          "y",
+          "startBeat",
+          "lengthBeats"
+        ],
+        "properties": {
+          "id": {
+            "enum": [
+              "fire",
+              "heart",
+              "star",
+              "bolt",
+              "sparkles",
+              "crown",
+              "wow",
+              "omg",
+              "lol"
+            ]
+          },
+          "x": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "y": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "size": {
+            "type": "number"
+          },
+          "startBeat": {
+            "type": "number"
+          },
+          "lengthBeats": {
+            "type": "number"
+          },
+          "beatPulse": {
+            "type": "boolean"
+          }
+        }
+      }
     }
   }
 }

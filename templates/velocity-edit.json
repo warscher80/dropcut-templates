@@ -185,7 +185,10 @@
         "sizePx": 110,
         "color": "#FFFFFF",
         "strokeColor": "#000000",
-        "animation": "pop"
+        "animation": "pop",
+        "preset": "neon",
+        "accentColor": "#7C5CFF",
+        "beatPulse": true
       },
       "slot": "hook"
     }
@@ -206,5 +209,27 @@
   "previewUrl": "previews/velocity-edit.mp4",
   "thumbnailUrl": "previews/velocity-edit.jpg",
   "previewDurationSec": 14.9,
-  "suggestedTrackId": "drift-phonk"
+  "suggestedTrackId": "drift-phonk",
+  "fx": {
+    "intensity": 1.5,
+    "look": "tealorange",
+    "transitions": [
+      "whip",
+      "rgbsplit",
+      "glitch"
+    ],
+    "vignette": true,
+    "grain": true
+  },
+  "stickers": [
+    {
+      "id": "bolt",
+      "x": 0.8,
+      "y": 0.62,
+      "size": 0.24,
+      "startBeat": 8,
+      "lengthBeats": 6,
+      "beatPulse": true
+    }
+  ]
 }

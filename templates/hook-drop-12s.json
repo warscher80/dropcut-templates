@@ -148,7 +148,10 @@
         "sizePx": 100,
         "color": "#FFFFFF",
         "strokeColor": "#000000",
-        "animation": "pop"
+        "animation": "pop",
+        "preset": "neon",
+        "accentColor": "#FF4D6D",
+        "beatPulse": true
       },
       "slot": "hook"
     }
@@ -168,6 +171,27 @@
   "idealBpm": 125,
   "previewUrl": "previews/hook-drop-12s.mp4",
   "thumbnailUrl": "previews/hook-drop-12s.jpg",
-  "previewDurationSec": 11.93,
-  "suggestedTrackId": "drift-phonk-sped-up"
+  "previewDurationSec": 11.9,
+  "suggestedTrackId": "drift-phonk-sped-up",
+  "fx": {
+    "intensity": 1.3,
+    "look": "vibrant",
+    "transitions": [
+      "whip",
+      "rgbsplit",
+      "zoom",
+      "glitch"
+    ]
+  },
+  "stickers": [
+    {
+      "id": "fire",
+      "x": 0.8,
+      "y": 0.62,
+      "size": 0.26,
+      "startBeat": 8,
+      "lengthBeats": 8,
+      "beatPulse": true
+    }
+  ]
 }

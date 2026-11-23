@@ -107,7 +107,8 @@
         "sizePx": 150,
         "color": "#FFFFFF",
         "strokeColor": "#000000",
-        "animation": "slideUp"
+        "animation": "slideUp",
+        "preset": "box"
       },
       "slot": "hook"
     },
@@ -120,7 +121,10 @@
         "sizePx": 150,
         "color": "#FFFFFF",
         "strokeColor": "#000000",
-        "animation": "pop"
+        "animation": "pop",
+        "preset": "neon",
+        "accentColor": "#25F4EE",
+        "beatPulse": true
       }
     }
   ],
@@ -139,5 +143,23 @@
   "previewUrl": "previews/before-after.mp4",
   "thumbnailUrl": "previews/before-after.jpg",
   "previewDurationSec": 14.27,
-  "suggestedTrackId": "retrowave"
+  "suggestedTrackId": "retrowave",
+  "fx": {
+    "intensity": 0.9,
+    "transitions": [
+      "flash",
+      "zoom"
+    ]
+  },
+  "stickers": [
+    {
+      "id": "sparkles",
+      "x": 0.78,
+      "y": 0.34,
+      "size": 0.26,
+      "startBeat": 8,
+      "lengthBeats": 6,
+      "beatPulse": true
+    }
+  ]
 }

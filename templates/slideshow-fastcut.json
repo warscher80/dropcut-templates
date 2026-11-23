@@ -243,7 +243,8 @@
         "sizePx": 100,
         "color": "#FFFFFF",
         "strokeColor": "#000000",
-        "animation": "pop"
+        "animation": "pop",
+        "preset": "box"
       },
       "slot": "hook"
     }
@@ -262,6 +263,26 @@
   "idealBpm": 118,
   "previewUrl": "previews/slideshow-fastcut.mp4",
   "thumbnailUrl": "previews/slideshow-fastcut.jpg",
-  "previewDurationSec": 12.37,
-  "suggestedTrackId": "nobody-knows"
+  "previewDurationSec": 12.33,
+  "suggestedTrackId": "nobody-knows",
+  "fx": {
+    "intensity": 1,
+    "look": "vibrant",
+    "transitions": [
+      "whip",
+      "zoom",
+      "blur"
+    ]
+  },
+  "stickers": [
+    {
+      "id": "star",
+      "x": 0.8,
+      "y": 0.64,
+      "size": 0.22,
+      "startBeat": 8,
+      "lengthBeats": 4,
+      "beatPulse": true
+    }
+  ]
 }

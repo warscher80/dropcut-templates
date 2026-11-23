@@ -123,7 +123,8 @@
         "sizePx": 110,
         "color": "#FFFFFF",
         "strokeColor": "#000000",
-        "animation": "pop"
+        "animation": "pop",
+        "preset": "box"
       },
       "slot": "hook"
     },
@@ -136,7 +137,10 @@
         "sizePx": 200,
         "color": "#FFFFFF",
         "strokeColor": "#000000",
-        "animation": "pop"
+        "animation": "pop",
+        "preset": "neon",
+        "accentColor": "#FFD93D",
+        "beatPulse": true
       }
     }
   ],
@@ -154,6 +158,14 @@
   "idealBpm": 110,
   "previewUrl": "previews/hook-reveal.mp4",
   "thumbnailUrl": "previews/hook-reveal.jpg",
-  "previewDurationSec": 14.37,
-  "suggestedTrackId": "hard-trap"
+  "previewDurationSec": 12.97,
+  "suggestedTrackId": "cyber-punk-trap",
+  "fx": {
+    "intensity": 1.2,
+    "look": "tealorange",
+    "transitions": [
+      "zoom",
+      "rgbsplit"
+    ]
+  }
 }

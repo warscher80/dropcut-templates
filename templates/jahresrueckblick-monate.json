@@ -194,7 +194,8 @@
         "sizePx": 90,
         "color": "#FFFFFF",
         "strokeColor": "#000000",
-        "animation": "pop"
+        "animation": "pop",
+        "preset": "box"
       }
     },
     {
@@ -345,5 +346,14 @@
   "previewUrl": "previews/jahresrueckblick-monate.mp4",
   "thumbnailUrl": "previews/jahresrueckblick-monate.jpg",
   "previewDurationSec": 15.37,
-  "suggestedTrackId": "piano-improvisation"
+  "suggestedTrackId": "piano-improvisation",
+  "fx": {
+    "intensity": 0.8,
+    "look": "film",
+    "transitions": [
+      "whip",
+      "zoom"
+    ],
+    "vignette": true
+  }
 }

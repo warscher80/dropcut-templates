@@ -188,7 +188,8 @@
         "sizePx": 100,
         "color": "#FFFFFF",
         "strokeColor": "#000000",
-        "animation": "pop"
+        "animation": "pop",
+        "preset": "box"
       }
     },
     {
@@ -200,7 +201,8 @@
         "sizePx": 160,
         "color": "#FF3B30",
         "strokeColor": "#000000",
-        "animation": "pop"
+        "animation": "pop",
+        "beatPulse": true
       }
     },
     {
@@ -212,7 +214,10 @@
         "sizePx": 160,
         "color": "#34C759",
         "strokeColor": "#000000",
-        "animation": "pop"
+        "animation": "pop",
+        "preset": "neon",
+        "accentColor": "#3DDC97",
+        "beatPulse": true
       }
     },
     {
@@ -224,7 +229,8 @@
         "sizePx": 160,
         "color": "#FF3B30",
         "strokeColor": "#000000",
-        "animation": "pop"
+        "animation": "pop",
+        "beatPulse": true
       }
     },
     {
@@ -236,7 +242,10 @@
         "sizePx": 160,
         "color": "#34C759",
         "strokeColor": "#000000",
-        "animation": "pop"
+        "animation": "pop",
+        "preset": "neon",
+        "accentColor": "#3DDC97",
+        "beatPulse": true
       }
     },
     {
@@ -248,7 +257,8 @@
         "sizePx": 160,
         "color": "#FF3B30",
         "strokeColor": "#000000",
-        "animation": "pop"
+        "animation": "pop",
+        "beatPulse": true
       }
     },
     {
@@ -260,7 +270,10 @@
         "sizePx": 160,
         "color": "#34C759",
         "strokeColor": "#000000",
-        "animation": "pop"
+        "animation": "pop",
+        "preset": "neon",
+        "accentColor": "#3DDC97",
+        "beatPulse": true
       }
     },
     {
@@ -272,7 +285,8 @@
         "sizePx": 160,
         "color": "#FF3B30",
         "strokeColor": "#000000",
-        "animation": "pop"
+        "animation": "pop",
+        "beatPulse": true
       }
     },
     {
@@ -284,12 +298,22 @@
         "sizePx": 160,
         "color": "#34C759",
         "strokeColor": "#000000",
-        "animation": "pop"
+        "animation": "pop",
+        "preset": "neon",
+        "accentColor": "#3DDC97",
+        "beatPulse": true
       }
     }
   ],
   "previewUrl": "previews/nein-ja.mp4",
   "thumbnailUrl": "previews/nein-ja.jpg",
   "previewDurationSec": 9.67,
-  "suggestedTrackId": "edm-drop"
+  "suggestedTrackId": "edm-drop",
+  "fx": {
+    "intensity": 1,
+    "transitions": [
+      "glitch",
+      "rgbsplit"
+    ]
+  }
 }
