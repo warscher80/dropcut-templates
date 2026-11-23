@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": 2,
+  "version": 3,
   "updatedAt": "2026-11-23",
   "templates": [
     {
@@ -22,6 +22,15 @@
       "thumbnailUrl": "previews/before-after.jpg"
     },
     {
+      "id": "gefuehl-slow-reveal",
+      "name": "Gefühl & Slow Reveal",
+      "file": "gefuehl-slow-reveal.json",
+      "updatedAt": "2026-11-23",
+      "category": "beat",
+      "previewUrl": "previews/gefuehl-slow-reveal.mp4",
+      "thumbnailUrl": "previews/gefuehl-slow-reveal.jpg"
+    },
+    {
       "id": "hook-drop-12s",
       "name": "Hook & Drop",
       "file": "hook-drop-12s.json",
@@ -39,6 +48,26 @@
       "category": "hook",
       "previewUrl": "previews/hook-reveal.mp4",
       "thumbnailUrl": "previews/hook-reveal.jpg"
+    },
+    {
+      "id": "jahresrueckblick-monate",
+      "name": "Jahresrückblick",
+      "file": "jahresrueckblick-monate.json",
+      "updatedAt": "2026-11-23",
+      "category": "slideshow",
+      "previewUrl": "previews/jahresrueckblick-monate.mp4",
+      "thumbnailUrl": "previews/jahresrueckblick-monate.jpg",
+      "trendWeek": "2026-W48"
+    },
+    {
+      "id": "nein-ja",
+      "name": "Nein / Ja",
+      "file": "nein-ja.json",
+      "updatedAt": "2026-11-23",
+      "category": "hook",
+      "previewUrl": "previews/nein-ja.mp4",
+      "thumbnailUrl": "previews/nein-ja.jpg",
+      "trendWeek": "2026-W48"
     },
     {
       "id": "slideshow-fastcut",

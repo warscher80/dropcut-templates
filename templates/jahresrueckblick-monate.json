@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "aspect": "9:16",
+  "updatedAt": "2026-11-23",
+  "id": "jahresrueckblick-monate",
+  "name": "Jahresrückblick",
+  "icon": "🗓️",
+  "tagline": "„Hab dieses Jahr nicht viel gemacht …“",
+  "description": "Ironischer Hook, dann zwölf schnelle Clips mit Monats-Label als Beweis. Ein Foto oder Video pro Monat, ca. 15 s. Perfekt für Dezember.",
+  "tags": [
+    "jahresrueckblick",
+    "monate",
+    "recap",
+    "trend"
+  ],
+  "source": "Instagram-Trend „I feel like I haven't done much this year“ (Later, 20.11.2026): https://later.com/blog/instagram-reels-trends/",
+  "durationSec": {
+    "min": 10,
+    "target": 15,
+    "max": 18
+  },
+  "bpmRange": [
+    95,
+    140
+  ],
+  "idealBpm": 115,
+  "category": "slideshow",
+  "clips": {
+    "min": 6,
+    "ideal": 12,
+    "max": 12
+  },
+  "trendWeek": "2026-W48",
+  "music": {
+    "startAt": "bestSection",
+    "dropAtBeat": 4,
+    "fadeOutSec": 1
+  },
+  "segments": [
+    {
+      "startBeat": 0,
+      "lengthBeats": 4,
+      "clip": "best",
+      "look": "dim",
+      "speed": 1,
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 0.3
+        }
+      ]
+    },
+    {
+      "startBeat": 4,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "flash",
+        "durationBeats": 0.25
+      },
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 0.8
+        }
+      ],
+      "look": "vivid"
+    },
+    {
+      "startBeat": 6,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      },
+      "look": "vivid"
+    },
+    {
+      "startBeat": 8,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "whip",
+        "durationBeats": 0.25
+      },
+      "look": "vivid"
+    },
+    {
+      "startBeat": 10,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      },
+      "look": "vivid"
+    },
+    {
+      "startBeat": 12,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      },
+      "look": "vivid"
+    },
+    {
+      "startBeat": 14,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "whip",
+        "durationBeats": 0.25
+      },
+      "look": "vivid"
+    },
+    {
+      "startBeat": 16,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      },
+      "look": "vivid"
+    },
+    {
+      "startBeat": 18,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      },
+      "look": "vivid"
+    },
+    {
+      "startBeat": 20,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "whip",
+        "durationBeats": 0.25
+      },
+      "look": "vivid"
+    },
+    {
+      "startBeat": 22,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      },
+      "look": "vivid"
+    },
+    {
+      "startBeat": 24,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "cut",
+        "durationBeats": 0.25
+      },
+      "look": "vivid"
+    },
+    {
+      "startBeat": 26,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "whip",
+        "durationBeats": 0.25
+      },
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 0.6
+        }
+      ],
+      "look": "vivid"
+    }
+  ],
+  "textOverlays": [
+    {
+      "text": "Hab dieses Jahr nicht viel gemacht",
+      "slot": "hook",
+      "startBeat": 0,
+      "lengthBeats": 4,
+      "position": "top",
+      "style": {
+        "sizePx": 90,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "pop"
+      }
+    },
+    {
+      "text": "JANUAR",
+      "startBeat": 4,
+      "lengthBeats": 2,
+      "position": "top",
+      "style": {
+        "sizePx": 110,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "pop"
+      }
+    },
+    {
+      "text": "FEBRUAR",
+      "startBeat": 6,
+      "lengthBeats": 2,
+      "position": "top",
+      "style": {
+        "sizePx": 110,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "none"
+      }
+    },
+    {
+      "text": "MÄRZ",
+      "startBeat": 8,
+      "lengthBeats": 2,
+      "position": "top",
+      "style": {
+        "sizePx": 110,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "none"
+      }
+    },
+    {
+      "text": "APRIL",
+      "startBeat": 10,
+      "lengthBeats": 2,
+      "position": "top",
+      "style": {
+        "sizePx": 110,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "none"
+      }
+    },
+    {
+      "text": "MAI",
+      "startBeat": 12,
+      "lengthBeats": 2,
+      "position": "top",
+      "style": {
+        "sizePx": 110,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "none"
+      }
+    },
+    {
+      "text": "JUNI",
+      "startBeat": 14,
+      "lengthBeats": 2,
+      "position": "top",
+      "style": {
+        "sizePx": 110,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "none"
+      }
+    },
+    {
+      "text": "JULI",
+      "startBeat": 16,
+      "lengthBeats": 2,
+      "position": "top",
+      "style": {
+        "sizePx": 110,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "none"
+      }
+    },
+    {
+      "text": "AUGUST",
+      "startBeat": 18,
+      "lengthBeats": 2,
+      "position": "top",
+      "style": {
+        "sizePx": 110,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "none"
+      }
+    },
+    {
+      "text": "SEPTEMBER",
+      "startBeat": 20,
+      "lengthBeats": 2,
+      "position": "top",
+      "style": {
+        "sizePx": 110,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "none"
+      }
+    },
+    {
+      "text": "OKTOBER",
+      "startBeat": 22,
+      "lengthBeats": 2,
+      "position": "top",
+      "style": {
+        "sizePx": 110,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "none"
+      }
+    },
+    {
+      "text": "NOVEMBER",
+      "startBeat": 24,
+      "lengthBeats": 2,
+      "position": "top",
+      "style": {
+        "sizePx": 110,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "none"
+      }
+    },
+    {
+      "text": "DEZEMBER",
+      "startBeat": 26,
+      "lengthBeats": 2,
+      "position": "top",
+      "style": {
+        "sizePx": 110,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "none"
+      }
+    }
+  ],
+  "previewUrl": "previews/jahresrueckblick-monate.mp4",
+  "thumbnailUrl": "previews/jahresrueckblick-monate.jpg",
+  "previewDurationSec": 13.63
+}

@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "aspect": "9:16",
+  "updatedAt": "2026-11-23",
+  "id": "gefuehl-slow-reveal",
+  "name": "Gefühl & Slow Reveal",
+  "icon": "🕯️",
+  "tagline": "Ruhig, warm, Gänsehaut",
+  "description": "Für langsame, emotionale Songs: weiche Überblendungen, leichte Zeitlupe, warmer Look und ein großer Moment am Schluss. Für Erinnerungen, Familie, Reisen. Ca. 14 s.",
+  "tags": [
+    "emotional",
+    "slow",
+    "erinnerungen",
+    "trend"
+  ],
+  "source": "TikTok-Editing-Trend „emotional music“ steigt (Blossom, 13.11.2026): https://blossai.com/blog/rising-tactics-november-2026",
+  "durationSec": {
+    "min": 9,
+    "target": 14,
+    "max": 20
+  },
+  "bpmRange": [
+    60,
+    95
+  ],
+  "idealBpm": 75,
+  "category": "beat",
+  "clips": {
+    "min": 3,
+    "ideal": 5,
+    "max": 6
+  },
+  "music": {
+    "startAt": "bestSection",
+    "dropAtBeat": 12,
+    "fadeOutSec": 2
+  },
+  "segments": [
+    {
+      "startBeat": 0,
+      "lengthBeats": 3,
+      "clip": "next",
+      "speed": 0.7,
+      "look": "warm",
+      "transitionIn": {
+        "type": "fade",
+        "durationBeats": 1
+      }
+    },
+    {
+      "startBeat": 3,
+      "lengthBeats": 3,
+      "clip": "next",
+      "speed": 0.7,
+      "look": "warm",
+      "transitionIn": {
+        "type": "fade",
+        "durationBeats": 1
+      }
+    },
+    {
+      "startBeat": 6,
+      "lengthBeats": 3,
+      "clip": "next",
+      "speed": 0.7,
+      "look": "warm",
+      "transitionIn": {
+        "type": "fade",
+        "durationBeats": 1
+      }
+    },
+    {
+      "startBeat": 9,
+      "lengthBeats": 3,
+      "clip": "next",
+      "look": "warm",
+      "transitionIn": {
+        "type": "fade",
+        "durationBeats": 0.75
+      },
+      "speedRamp": [
+        {
+          "at": 0,
+          "speed": 0.8
+        },
+        {
+          "at": 0.6,
+          "speed": 0.4
+        }
+      ]
+    },
+    {
+      "startBeat": 12,
+      "lengthBeats": 5,
+      "clip": "best",
+      "look": "vivid",
+      "transitionIn": {
+        "type": "flash",
+        "durationBeats": 0.5
+      },
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 0.5
+        }
+      ]
+    }
+  ],
+  "textOverlays": [
+    {
+      "text": "Für die Momente, die bleiben",
+      "slot": "hook",
+      "startBeat": 0,
+      "lengthBeats": 5,
+      "position": "top",
+      "style": {
+        "sizePx": 85,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "slideUp"
+      }
+    }
+  ],
+  "previewUrl": "previews/gefuehl-slow-reveal.mp4",
+  "thumbnailUrl": "previews/gefuehl-slow-reveal.jpg",
+  "previewDurationSec": 8.4
+}

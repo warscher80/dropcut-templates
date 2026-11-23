@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "aspect": "9:16",
+  "updatedAt": "2026-11-23",
+  "id": "nein-ja",
+  "name": "Nein / Ja",
+  "icon": "🙅",
+  "tagline": "Problem, Lösung – im Sekundentakt",
+  "description": "Hook, dann im Wechsel je ca. 1 s „NEIN“ (Schwarzweiß, das Problem) und „JA“ (knallige Farben, die Lösung). Für Produkte, Tipps, Vorher-besser. Ca. 12 s.",
+  "tags": [
+    "nein-ja",
+    "problem-loesung",
+    "business",
+    "trend"
+  ],
+  "source": "Reels-Format „No and Yes“ (eksis, Nov 2026, via TIME Marketing): https://eksis.io/blog/november-2026-social-media-trends-for-brands",
+  "durationSec": {
+    "min": 8,
+    "target": 12,
+    "max": 15
+  },
+  "bpmRange": [
+    100,
+    140
+  ],
+  "idealBpm": 120,
+  "category": "hook",
+  "clips": {
+    "min": 4,
+    "ideal": 9,
+    "max": 9
+  },
+  "trendWeek": "2026-W48",
+  "music": {
+    "startAt": "firstDrop",
+    "dropAtBeat": 4,
+    "fadeOutSec": 0.8
+  },
+  "segments": [
+    {
+      "startBeat": 0,
+      "lengthBeats": 4,
+      "clip": "best",
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 0.5
+        }
+      ]
+    },
+    {
+      "startBeat": 4,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "glitch",
+        "durationBeats": 0.25
+      },
+      "look": "bw",
+      "effects": [
+        {
+          "type": "shake",
+          "intensity": 0.4
+        }
+      ]
+    },
+    {
+      "startBeat": 6,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "flash",
+        "durationBeats": 0.25
+      },
+      "look": "vivid",
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 0.7
+        }
+      ]
+    },
+    {
+      "startBeat": 8,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "glitch",
+        "durationBeats": 0.25
+      },
+      "look": "bw",
+      "effects": [
+        {
+          "type": "shake",
+          "intensity": 0.4
+        }
+      ]
+    },
+    {
+      "startBeat": 10,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "flash",
+        "durationBeats": 0.25
+      },
+      "look": "vivid",
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 0.7
+        }
+      ]
+    },
+    {
+      "startBeat": 12,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "glitch",
+        "durationBeats": 0.25
+      },
+      "look": "bw",
+      "effects": [
+        {
+          "type": "shake",
+          "intensity": 0.4
+        }
+      ]
+    },
+    {
+      "startBeat": 14,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "flash",
+        "durationBeats": 0.25
+      },
+      "look": "vivid",
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 0.7
+        }
+      ]
+    },
+    {
+      "startBeat": 16,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "glitch",
+        "durationBeats": 0.25
+      },
+      "look": "bw",
+      "effects": [
+        {
+          "type": "shake",
+          "intensity": 0.4
+        }
+      ]
+    },
+    {
+      "startBeat": 18,
+      "lengthBeats": 2,
+      "clip": "next",
+      "transitionIn": {
+        "type": "flash",
+        "durationBeats": 0.25
+      },
+      "look": "vivid",
+      "effects": [
+        {
+          "type": "zoomPunch",
+          "intensity": 0.7
+        }
+      ]
+    }
+  ],
+  "textOverlays": [
+    {
+      "text": "Problem? Kenn ich.",
+      "slot": "hook",
+      "startBeat": 0,
+      "lengthBeats": 4,
+      "position": "top",
+      "style": {
+        "sizePx": 100,
+        "color": "#FFFFFF",
+        "strokeColor": "#000000",
+        "animation": "pop"
+      }
+    },
+    {
+      "text": "NEIN",
+      "startBeat": 4,
+      "lengthBeats": 2,
+      "position": "center",
+      "style": {
+        "sizePx": 160,
+        "color": "#FF3B30",
+        "strokeColor": "#000000",
+        "animation": "pop"
+      }
+    },
+    {
+      "text": "JA",
+      "startBeat": 6,
+      "lengthBeats": 2,
+      "position": "center",
+      "style": {
+        "sizePx": 160,
+        "color": "#34C759",
+        "strokeColor": "#000000",
+        "animation": "pop"
+      }
+    },
+    {
+      "text": "NEIN",
+      "startBeat": 8,
+      "lengthBeats": 2,
+      "position": "center",
+      "style": {
+        "sizePx": 160,
+        "color": "#FF3B30",
+        "strokeColor": "#000000",
+        "animation": "pop"
+      }
+    },
+    {
+      "text": "JA",
+      "startBeat": 10,
+      "lengthBeats": 2,
+      "position": "center",
+      "style": {
+        "sizePx": 160,
+        "color": "#34C759",
+        "strokeColor": "#000000",
+        "animation": "pop"
+      }
+    },
+    {
+      "text": "NEIN",
+      "startBeat": 12,
+      "lengthBeats": 2,
+      "position": "center",
+      "style": {
+        "sizePx": 160,
+        "color": "#FF3B30",
+        "strokeColor": "#000000",
+        "animation": "pop"
+      }
+    },
+    {
+      "text": "JA",
+      "startBeat": 14,
+      "lengthBeats": 2,
+      "position": "center",
+      "style": {
+        "sizePx": 160,
+        "color": "#34C759",
+        "strokeColor": "#000000",
+        "animation": "pop"
+      }
+    },
+    {
+      "text": "NEIN",
+      "startBeat": 16,
+      "lengthBeats": 2,
+      "position": "center",
+      "style": {
+        "sizePx": 160,
+        "color": "#FF3B30",
+        "strokeColor": "#000000",
+        "animation": "pop"
+      }
+    },
+    {
+      "text": "JA",
+      "startBeat": 18,
+      "lengthBeats": 2,
+      "position": "center",
+      "style": {
+        "sizePx": 160,
+        "color": "#34C759",
+        "strokeColor": "#000000",
+        "animation": "pop"
+      }
+    }
+  ],
+  "previewUrl": "previews/nein-ja.mp4",
+  "thumbnailUrl": "previews/nein-ja.jpg",
+  "previewDurationSec": 9.77
+}
