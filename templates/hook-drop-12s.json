@@ -168,5 +168,6 @@
   "idealBpm": 125,
   "previewUrl": "previews/hook-drop-12s.mp4",
   "thumbnailUrl": "previews/hook-drop-12s.jpg",
-  "previewDurationSec": 11.73
+  "previewDurationSec": 11.93,
+  "suggestedTrackId": "drift-phonk-sped-up"
 }

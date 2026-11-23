@@ -319,6 +319,11 @@
     "idealBpm": {
       "type": "number",
       "description": "Tempo, bei dem das Template am besten wirkt (für 'Passt zu meinem Song')."
+    },
+    "suggestedTrackId": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$",
+      "description": "Standard-Song aus dem Musikkatalog (music/index.json). Wird von render-previews für die Galerie-Vorschau genutzt und in der App vorgeschlagen."
     }
   }
 }

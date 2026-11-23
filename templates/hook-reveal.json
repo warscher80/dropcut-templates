@@ -154,5 +154,6 @@
   "idealBpm": 110,
   "previewUrl": "previews/hook-reveal.mp4",
   "thumbnailUrl": "previews/hook-reveal.jpg",
-  "previewDurationSec": 11.73
+  "previewDurationSec": 14.37,
+  "suggestedTrackId": "hard-trap"
 }

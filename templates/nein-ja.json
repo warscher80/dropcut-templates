@@ -290,5 +290,6 @@
   ],
   "previewUrl": "previews/nein-ja.mp4",
   "thumbnailUrl": "previews/nein-ja.jpg",
-  "previewDurationSec": 9.77
+  "previewDurationSec": 9.67,
+  "suggestedTrackId": "edm-drop"
 }

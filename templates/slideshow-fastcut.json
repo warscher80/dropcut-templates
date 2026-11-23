@@ -262,5 +262,6 @@
   "idealBpm": 118,
   "previewUrl": "previews/slideshow-fastcut.mp4",
   "thumbnailUrl": "previews/slideshow-fastcut.jpg",
-  "previewDurationSec": 11.73
+  "previewDurationSec": 12.37,
+  "suggestedTrackId": "nobody-knows"
 }

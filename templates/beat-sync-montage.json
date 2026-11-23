@@ -256,5 +256,6 @@
   "idealBpm": 135,
   "previewUrl": "previews/beat-sync-montage.mp4",
   "thumbnailUrl": "previews/beat-sync-montage.jpg",
-  "previewDurationSec": 11.73
+  "previewDurationSec": 10.33,
+  "suggestedTrackId": "dark-time"
 }

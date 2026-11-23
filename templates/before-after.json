@@ -138,5 +138,6 @@
   "idealBpm": 100,
   "previewUrl": "previews/before-after.mp4",
   "thumbnailUrl": "previews/before-after.jpg",
-  "previewDurationSec": 11.73
+  "previewDurationSec": 14.27,
+  "suggestedTrackId": "retrowave"
 }

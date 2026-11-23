@@ -205,5 +205,6 @@
   "idealBpm": 95,
   "previewUrl": "previews/velocity-edit.mp4",
   "thumbnailUrl": "previews/velocity-edit.jpg",
-  "previewDurationSec": 11.73
+  "previewDurationSec": 14.9,
+  "suggestedTrackId": "drift-phonk"
 }
