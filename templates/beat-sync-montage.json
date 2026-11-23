@@ -246,5 +246,15 @@
     "enabled": false,
     "language": "de",
     "style": "bold-center"
-  }
+  },
+  "category": "beat",
+  "clips": {
+    "min": 3,
+    "ideal": 6,
+    "max": 12
+  },
+  "idealBpm": 135,
+  "previewUrl": "previews/beat-sync-montage.mp4",
+  "thumbnailUrl": "previews/beat-sync-montage.jpg",
+  "previewDurationSec": 11.73
 }

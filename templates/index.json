@@ -1,43 +1,63 @@
 {
   "schemaVersion": 1,
-  "version": 1,
-  "updatedAt": "2026-11-22",
+  "version": 2,
+  "updatedAt": "2026-11-23",
   "templates": [
     {
       "id": "beat-sync-montage",
       "name": "Beat-Sync Montage",
       "file": "beat-sync-montage.json",
-      "updatedAt": "2026-11-23"
+      "updatedAt": "2026-11-23",
+      "category": "beat",
+      "previewUrl": "previews/beat-sync-montage.mp4",
+      "thumbnailUrl": "previews/beat-sync-montage.jpg"
     },
     {
       "id": "before-after",
       "name": "Vorher / Nachher",
       "file": "before-after.json",
-      "updatedAt": "2026-11-23"
+      "updatedAt": "2026-11-23",
+      "category": "before-after",
+      "previewUrl": "previews/before-after.mp4",
+      "thumbnailUrl": "previews/before-after.jpg"
     },
     {
       "id": "hook-drop-12s",
       "name": "Hook & Drop",
       "file": "hook-drop-12s.json",
-      "updatedAt": "2026-11-23"
+      "updatedAt": "2026-11-23",
+      "category": "hook",
+      "previewUrl": "previews/hook-drop-12s.mp4",
+      "thumbnailUrl": "previews/hook-drop-12s.jpg",
+      "trendWeek": "2026-W48"
     },
     {
       "id": "hook-reveal",
       "name": "Hook & Reveal",
       "file": "hook-reveal.json",
-      "updatedAt": "2026-11-23"
+      "updatedAt": "2026-11-23",
+      "category": "hook",
+      "previewUrl": "previews/hook-reveal.mp4",
+      "thumbnailUrl": "previews/hook-reveal.jpg"
     },
     {
       "id": "slideshow-fastcut",
       "name": "Fast-Cut Slideshow",
       "file": "slideshow-fastcut.json",
-      "updatedAt": "2026-11-23"
+      "updatedAt": "2026-11-23",
+      "category": "slideshow",
+      "previewUrl": "previews/slideshow-fastcut.mp4",
+      "thumbnailUrl": "previews/slideshow-fastcut.jpg"
     },
     {
       "id": "velocity-edit",
       "name": "Velocity Edit",
       "file": "velocity-edit.json",
-      "updatedAt": "2026-11-23"
+      "updatedAt": "2026-11-23",
+      "category": "velocity",
+      "previewUrl": "previews/velocity-edit.mp4",
+      "thumbnailUrl": "previews/velocity-edit.jpg",
+      "trendWeek": "2026-W48"
     }
   ]
 }

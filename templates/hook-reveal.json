@@ -144,5 +144,15 @@
     "enabled": false,
     "language": "de",
     "style": "bold-center"
-  }
+  },
+  "category": "hook",
+  "clips": {
+    "min": 2,
+    "ideal": 3,
+    "max": 6
+  },
+  "idealBpm": 110,
+  "previewUrl": "previews/hook-reveal.mp4",
+  "thumbnailUrl": "previews/hook-reveal.jpg",
+  "previewDurationSec": 11.73
 }

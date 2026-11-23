@@ -157,5 +157,16 @@
     "enabled": false,
     "language": "de",
     "style": "bold-center"
-  }
+  },
+  "category": "hook",
+  "clips": {
+    "min": 3,
+    "ideal": 5,
+    "max": 8
+  },
+  "trendWeek": "2026-W48",
+  "idealBpm": 125,
+  "previewUrl": "previews/hook-drop-12s.mp4",
+  "thumbnailUrl": "previews/hook-drop-12s.jpg",
+  "previewDurationSec": 11.73
 }

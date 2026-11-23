@@ -194,5 +194,16 @@
     "enabled": false,
     "language": "de",
     "style": "bold-center"
-  }
+  },
+  "category": "velocity",
+  "clips": {
+    "min": 2,
+    "ideal": 3,
+    "max": 6
+  },
+  "trendWeek": "2026-W48",
+  "idealBpm": 95,
+  "previewUrl": "previews/velocity-edit.mp4",
+  "thumbnailUrl": "previews/velocity-edit.jpg",
+  "previewDurationSec": 11.73
 }

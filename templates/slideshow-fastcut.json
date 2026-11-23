@@ -252,5 +252,15 @@
     "enabled": false,
     "language": "de",
     "style": "bold-center"
-  }
+  },
+  "category": "slideshow",
+  "clips": {
+    "min": 4,
+    "ideal": 8,
+    "max": 16
+  },
+  "idealBpm": 118,
+  "previewUrl": "previews/slideshow-fastcut.mp4",
+  "thumbnailUrl": "previews/slideshow-fastcut.jpg",
+  "previewDurationSec": 11.73
 }

@@ -272,6 +272,53 @@
     },
     "tagline": {
       "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "description": "Tab in der Galerie: beat, velocity, hook, slideshow, before-after (weitere erlaubt, erscheinen unter 'Weitere')."
+    },
+    "clips": {
+      "type": "object",
+      "required": [
+        "min",
+        "ideal",
+        "max"
+      ],
+      "description": "Wie viele Videos der User wählen soll (min = Pflicht, ideal = empfohlen/angezeigt, max = Auswahl-Limit).",
+      "properties": {
+        "min": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "ideal": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "max": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "trendWeek": {
+      "type": "string",
+      "pattern": "^\\d{4}-W\\d{2}$",
+      "description": "ISO-Woche, in der das Template Trend ist (Badge 'Trend der Woche', solange es die aktuelle oder letzte Woche ist)."
+    },
+    "previewUrl": {
+      "type": "string",
+      "description": "Vorschau-MP4 (9:16, Beispielmaterial, mit Schnitten/Übergängen/Hook). Relativ zur Katalog-Basis (previews/<id>.mp4) oder absolute https-URL. Pflicht für die Veröffentlichung."
+    },
+    "thumbnailUrl": {
+      "type": "string",
+      "description": "Vorschaubild (JPG). Relativ (previews/<id>.jpg) oder absolute https-URL."
+    },
+    "previewDurationSec": {
+      "type": "number"
+    },
+    "idealBpm": {
+      "type": "number",
+      "description": "Tempo, bei dem das Template am besten wirkt (für 'Passt zu meinem Song')."
     }
   }
 }
